@@ -1,0 +1,53 @@
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main>
+        <div class="mx-5 mt-16 max-w-md">
+            <h1 class="text-sky-400 font-bold text-2xl ">
+                Sing in to your account
+            </h1>
+            <form action="">
+                <div class="flex flex-col mt-8">
+                    <label for="email" class="text-xs text-gray-300">
+                          E-mail address
+                    </label>
+                    <!-- <input type="text" id="email" name="email" class="border border-gray-300 rounded-lg h-9">  -->
+                    <div class="relative block">
+                        <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                          </svg></svg>
+                        </span>
+                        <input class="block bg-white w-full border border-gray-300 pl-9 h-9 rounded-lg placeholder:text-black focus:outline-none " placeholder="E-mail" type="email" name="email" id="email" required/>
+                    </div>
+                </div>
+                <div class="flex flex-col mt-8">
+                    <label for="password" class="text-xs text-gray-300">
+                          Your password
+                    </label>                 
+                    <div class="relative block">
+                        <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                          </svg></svg>
+                        </span>
+                        <input class="block bg-white w-full border border-gray-300 pl-9 h-9 rounded-lg placeholder:text-black focus:outline-none" placeholder="Password" type="password" name="search" required/>
+                    </div>
+                </div>
+                <a href="" class="text-sky-400 text-xs font-semibold flex pt-6 pl-44 pb-8">Forgot password?</a>
+                <div class="pl-14">
+                <button class="bg-violet-600 hover:bg-violet-700 rounded-full text-white font-bold h-16 w-48">Sign in</button>
+                </div>
+            </form>
+            
+        </div>
+    </main>
+</body>
+</html>
